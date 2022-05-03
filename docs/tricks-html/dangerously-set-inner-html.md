@@ -22,3 +22,5 @@ const bien = `test <b> bold </b>`;
 ### 3.Example code:
 
 ![alt](./../../static/img/tutorial/dangerously-set-inner-html/code.png)
+
+---
