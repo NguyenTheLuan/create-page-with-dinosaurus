@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  // organizationName: "facebook", // Usually your GitHub org/user name.
+  // projectName: "docusaurus", // Usually your repo name.
 
   presets: [
     [
@@ -54,8 +54,12 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            // label: "Tutorial",
             label: "Khoá học",
+          },
+          {
+            to: "contact",
+            label: "Liên hệ",
+            position: "left",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -97,23 +101,22 @@ const config = {
           {
             title: "More",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
               {
-                label: "GitHub",
+                label: "My CV",
+                href: "https://github.com/NguyenTheLuan",
+              },
+              {
+                label: "My GitHub",
                 href: "https://github.com/NguyenTheLuan",
               },
               {
                 href: "https://www.facebook.com/Call.Me.Is.Luan",
-                label: "Facebook",
-                position: "right",
+                label: "My Facebook",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nguyen The Luan - 11-12-2000.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nguyen The Luan.`,
       },
       prism: {
         theme: lightCodeTheme,
